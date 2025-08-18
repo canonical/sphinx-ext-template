@@ -1,5 +1,5 @@
 [project]
-name = "sphinx-ext-repo"
+name = "sphinx-ext-template"
 description = "A template for Canonical's sphinx extensions."
 dynamic = ["version", "readme"]
 requires-python = ">=3.10"
@@ -127,6 +127,7 @@ strict = false
 line-length = 88
 target-version = "py310"
 src = ["hello_ext", "tests"]
+extend-exclude = ["*/_version.py"]
 
 [tool.ruff.format]
 docstring-code-format = true

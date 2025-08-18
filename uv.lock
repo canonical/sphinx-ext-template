@@ -587,7 +587,7 @@ wheels = [
 ]
 
 [[package]]
-name = "sphinx-ext-repo"
+name = "sphinx-ext-template"
 source = { editable = "." }
 dependencies = [
     { name = "docutils" },
