@@ -11,7 +11,7 @@ template](https://docs.github.com/en/repositories/creating-and-managing-reposito
 Once the repository has been created, update the top-level README and CONTRIBUTING
 templates to better reflect your extension.
 
-Next, replace any references to the placeholder `hello_ext` extension, in the following
+Next, replace any references to the placeholder `hello_ext` extension in the following
 files:
 
 - `pyproject.toml`

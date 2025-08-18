@@ -1,6 +1,6 @@
 [project]
-name = "sphinx-ext-template"
-description = "A template for Canonical's sphinx extensions."
+name = "hello-ext"
+description = "An example extension."
 dynamic = ["version", "readme"]
 requires-python = ">=3.10"
 dependencies = [
