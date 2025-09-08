@@ -24,6 +24,7 @@ project = "Mockumentation"
 author = "Tester"
 
 html_title = project
+html_theme = "furo"
 
 extensions = [
     "hello_ext",
