@@ -53,7 +53,7 @@ existing tests or written new ones, run the full testing suite with:
 make test
 ```
 
-You can also generate a code coverage report with:
+To generate a code coverage report, run:
 
 ```bash
 make test-coverage
@@ -68,8 +68,8 @@ following [these
 instructions](https://packaging.python.org/en/latest/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/#configuring-trusted-publishing).
 
 Once that's done, push a signed [semantic versioning](https://semver.org/) tag to
-publish the extension to PyPI. For example, if you were release version 1.2.3 of the
-extension, you would run:
+publish the extension to PyPI. For example, to release version 1.2.3 of the extension,
+you would run:
 
 ```bash
 git tag -s -m "Release 1.2.3" "1.2.3"
