@@ -27,8 +27,8 @@ hello-ext is published on PyPI and can be installed with:
 pip install hello-ext
 ```
 
-After adding hello-ext to your Python project, update your Sphinx's conf.py file to
-include hello-ext as one of its extensions:
+After adding hello-ext to your Python project, update your conf.py file to include
+hello-ext as one of its extensions:
 
 ```python
 extensions = [
