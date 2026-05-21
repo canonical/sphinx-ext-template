@@ -1,6 +1,6 @@
 # Canonical Sphinx extension template
 
-This repository is a template for Canonical's Sphinx extensions. It provides useful
+This repository is a template for Canonical Sphinx extensions. It provides useful
 boilerplate and tools for linting, testing, and publishing Sphinx extensions.
 
 ## Create an extension
