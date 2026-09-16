@@ -17,7 +17,7 @@ pack: pack-pip  ## Build all packages
 publish: publish-pypi  ## Publish packages
 
 .PHONY: publish-pypi
-publish-pypi: clean package-pip lint-twine  ## Publish Python packages to pypi
+publish-pypi: clean pack-pip lint-twine  ## Publish Python packages to pypi
 	uv tool run twine upload dist/*
 
 # Find dependencies that need installing
